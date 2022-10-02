@@ -59,11 +59,15 @@ h3{
 }
 .contact__text{
     margin-top: 60px;
-    width: 38%;
+   
 }
 .content__text{
     font-size: larger;
     font-weight: bold;
+}
+span{
+    font-weight: bold;
+    font-family:'Londrina Outline', cursive ;
 }
 .hero__header{
     display: flex;
@@ -100,7 +104,7 @@ li:hover{
 background-image: url(/imgs/Group\ 3.png);
 background-repeat: no-repeat;
 background-position: right;
-background-size: coverxs;
+background-size:contain;
 }
 
 
@@ -165,4 +169,19 @@ background-size: coverxs;
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+@media (max-width: 576px) {
+    .content__title{
+        font-size: 3rem;
+    }
+    .content__text{
+      
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 386px) {
+    .navbar-brand{
+        padding-right: 20px;
+    }
 }
