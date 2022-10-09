@@ -46,28 +46,41 @@ h3{
     font-size: 5rem;
     font-weight: bold;
     margin-top: 10%;
-    padding: 3% 15% 0 15%;
+    padding: 0% 15% 0 15%;
     line-height: 1.5;
 
 }
-.content__text, .contact__text{
-    color: #826783;
-    text-shadow: rgba(9, 36, 56, 0.5) 0px 3px 3px;
-    padding-left: 16%;
-  margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
+
+
 .contact__text{
-    margin-top: 60px;
+    padding-left: 16%;
+    color: #24353b;
+    margin-top: 20px;
+   font-size: 20px;
    
 }
 .content__text{
-    font-size: larger;
-    font-weight: bold;
+       
+    padding-left: 16%;
+    margin: 0;
+    font-size: 30px;
+    color: #795c9a;
+    -webkit-text-stroke-width:
+    1px;
+  -webkit-text-stroke-color:
+  #130b17;
+    color: #174f4f;
+  text-shadow:
+    1px 1px 2px #a19e94,
+    0 0 6px #052e2f,
+    0 0 12px #064143,
+    0 0 22px #000a0a;
+    
 }
 span{
     font-weight: bold;
     font-family:'Londrina Outline', cursive ;
+   
 }
 .hero__header{
     display: flex;
@@ -78,15 +91,7 @@ span{
     width: 100vw;
 
 }
-.nav-item{
-    color: pink!important;
-}
-li :active{
-    color: pink!important;
-}
-li:hover{
-    color: pink!important;
-}
+
 .navbar-brand{
     padding-right: 200px;
 }
@@ -105,23 +110,23 @@ background-image: url(/imgs/Group\ 3.png);
 background-repeat: no-repeat;
 background-position: right;
 background-size:contain;
+
 }
 
 
 .glow-on-hover {
     width: 180px;
     height: 50px;
-    border: 1px solid #03311e;
+    border: 1px solid #2c0331;
     outline: none;
-    color: rgb(202, 102, 202);
     font-size: 16px;
     font-weight: bold;
-    background: linear-gradient(45deg, #942eb3, #44114d, #320e48, #072710, #033f35, #301c58, #7a00ff, #ff00c8, #5b1984);
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    margin:3%  17%;
+    margin: 0  16%;
+    color: #051115;
 }
 
 .glow-on-hover:before {
@@ -139,6 +144,7 @@ background-size:contain;
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
+    
 }
 
 .glow-on-hover:active {
@@ -146,7 +152,7 @@ background-size:contain;
 }
 
 .glow-on-hover:active:after {
-    background: linear-gradient(45deg, #942eb3, #3f147e, #380e4d, #510e50, #033f35, #115f33, #03311e, #0c5325, #07260e);
+   
 }
 
 .glow-on-hover:hover:before {
@@ -159,10 +165,11 @@ background-size:contain;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #942eb3, #0b423b, #0a2436, #085f21, #033f35, #1d876b, #7a00ff, #733465, #5b1984);
+   background-color: #033f35;
+
     left: 0;
     top: 0;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 @keyframes glowing {

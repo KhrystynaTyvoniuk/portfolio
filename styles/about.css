@@ -7,6 +7,7 @@ body{
 
 
 }
+
 .hero__header{
     display: flex;
     justify-content: space-between;
@@ -73,7 +74,7 @@ p{
   }
   
   .content h2:nth-child(2) {
-    color: #ac6599;
+    color: #e340b8;
     animation: animate 4s ease-in-out infinite;
   }
   
@@ -129,7 +130,7 @@ p{
 }
 span{
     font-weight: bold;
-    font-family:'Londrina Outline', cursive ;
+    
     font-size: 20px;
     color: #e340b8;
 }
@@ -150,12 +151,12 @@ h5{
 .contact{
     width: 100vw;
 
-    height: 80vh;
+    height: 60vh;
 }
 form{
 padding: 3%;
     width: 40%;
-    margin: 10% auto;
+    margin: 3% auto;
     border: 1px solid #064143;
     background-color: #051b1c81;
     color: #ac6599;
@@ -164,6 +165,7 @@ padding: 3%;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 13%;
 }
 .list{
     display: flex;
@@ -173,9 +175,9 @@ padding: 3%;
 }
 .list li{
     padding-right: 20px;
-    color: #a34c8c;
+
     font-size: 20px;
- margin-bottom: -50px;
+
 }
 ul{
    list-style: none;
@@ -214,13 +216,14 @@ ul{
   .hero-img{
     display: none;
   }
-  h2, {
+  h2 {
     padding-top: 15%;
    margin-left: 7%;
+    color: #e340b8;
   }
   h5{
     margin-left: 2%;
-
+    color: #e340b8;
   }
   .about{
     margin: 0;
@@ -239,9 +242,30 @@ ul{
         align-items: center;
         padding: 30px;
     }
-    .contact{
-        margin-top: 450px;
-    }
+   
 }
 
+a{
+  color: #a34c8c;
+}
+a:link {
+  color: #a34c8c;
+}
 
+/* visited link */
+a:visited {
+  color: #a34c8c;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #a34c8c;
+}
+.skills-special{
+  padding: 5%;
+}
