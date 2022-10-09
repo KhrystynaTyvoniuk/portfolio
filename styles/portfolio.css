@@ -151,9 +151,7 @@ background-size:contain;
     color: #267a7c
 }
 
-.glow-on-hover:active:after {
-   
-}
+
 
 .glow-on-hover:hover:before {
     opacity: 1;
