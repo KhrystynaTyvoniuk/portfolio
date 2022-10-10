@@ -115,8 +115,7 @@ background-size:contain;
 
 
 .glow-on-hover {
-    width: 180px;
-    height: 50px;
+   padding: 15px 25px;
     border: 1px solid #2c0331;
     outline: none;
     font-size: 16px;
@@ -126,10 +125,12 @@ background-size:contain;
     z-index: 0;
     border-radius: 10px;
     margin: 0  16%;
-    color: #051115;
+    color: #091f26;
+    text-decoration: none;
 }
 
 .glow-on-hover:before {
+    text-decoration: none;
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -148,16 +149,22 @@ background-size:contain;
 }
 
 .glow-on-hover:active {
-    color: #267a7c
+    color: #267a7c;
+    text-decoration: none;
 }
 
 
 
 .glow-on-hover:hover:before {
     opacity: 1;
+    text-decoration: none;
 }
-
+a:hover, a::after{
+    text-decoration: none;
+    color: #00ffd5;
+}
 .glow-on-hover:after {
+    text-decoration: none;
     z-index: -1;
     content: '';
     position: absolute;
