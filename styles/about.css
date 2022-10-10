@@ -206,6 +206,14 @@ ul{
   p{
     padding-left: 26%;
   }
+  form{
+    width: 80vw;
+    
+  }
+  i, .hero__footer-name {
+    padding-top: 80px;
+  }
+  
 }
 
 @media (max-width: 773px) {

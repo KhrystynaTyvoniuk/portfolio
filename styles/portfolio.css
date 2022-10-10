@@ -187,8 +187,13 @@ a:hover, a::after{
         font-size: 3rem;
     }
     .content__text{
-      
+      font-size: 1.5rem;
         margin: 0 auto;
+    }
+    .contact__text{
+        color:#0c6d5bd2;
+        font-size: 1rem;
+        margin-bottom: 50px;
     }
 }
 
